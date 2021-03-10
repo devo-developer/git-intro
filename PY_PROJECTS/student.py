@@ -1,4 +1,4 @@
-
+# USING FUNCTION
 item_no = 0
 student = {}
 
