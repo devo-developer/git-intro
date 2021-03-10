@@ -18,7 +18,7 @@ class studentDetails:
         print("5.Exit")
         print("==========================")
         menu = input("Enter Menu Item: ")
-        default = "Incorrect month"
+        default = "Invaid Item"
         return getattr(self, 'menu_' + str(menu), lambda: default)()
 
     def menu_1(self):
