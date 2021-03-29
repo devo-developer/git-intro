@@ -1,6 +1,6 @@
 # Python Console Applications
 1.Student Application
-...bash
+```bash
 python PY_PROJECTS/student.py
-...
+```
 
