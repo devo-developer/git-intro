@@ -1,4 +1,4 @@
-# Find the Parent from a dictionary
+# Find the Root Parent from a dictionary
 class Search:
     dataList = [
         {'id': 1, 'parent': 0},

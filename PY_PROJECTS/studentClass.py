@@ -1,4 +1,4 @@
-# USING CLASS
+# USING CLASS - CRUD App Student Details
 item_no = 0
 student = {}
 

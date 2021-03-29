@@ -1,3 +1,4 @@
+# To find count of Alphabets in a word
 txt = "ttaapeeetqrr555rttyurbvvvvzyy"
 strn = ""
 al = ""
