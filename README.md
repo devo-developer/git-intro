@@ -1,9 +1,9 @@
 # Python Console Applications
-1.CURD APP -Student Details using function
+1.CRUD APP -Student Details using function
 ```bash
 python PY_PROJECTS/studentFunct.py
 ```
-2.CURD APP - Student Details Using Class
+2.CRUD APP - Student Details Using Class
 ```bash
 python PY_PROJECTS/studentClass.py
 ```
