@@ -1,0 +1,131 @@
+/*
+ * Specific styles of Create Product component
+ */
+/*
+ * General styles
+ */
+body {
+  margin: 0;
+  padding: 0;
+}
+#dev-searchin input[type="text"] {
+  width: 500px !important;
+}
+
+.dev-head {
+  border-bottom: 1px solid grey;
+  margin-bottom: 45px;
+}
+
+.dev-container {
+  margin: 0;
+}
+.dev-aside {
+  background-color: grey;
+  height: 91.5vh;
+}
+.dev-section {
+  background-color: #fff;
+  width: 100%;
+}
+.dev-tab-head {
+  margin: 20px;
+}
+.dev-tab {
+  margin: 20px;
+}
+.dev-icon {
+  margin-right: 5px;
+}
+.dev-nav-bg {
+  background-color: #fff;
+}
+.search {
+  padding: 10px 0px 10px 5px;
+}
+.dev-page-list {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dev-page-nav {
+  width: 200px;
+  background-color: white;
+}
+.dev-pagination-itemlist {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.dev-action {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.fa-eye {
+  color: #0040ff;
+}
+.fa-pen {
+  color: #3d9942;
+}
+.fa-trash-alt {
+  color: #ff0000;
+}
+table thead tr th {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+table tbody tr td {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav {
+  height: 91.5vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 62px;
+  left: 0;
+  background-color: #0f52ba;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  width: 250px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

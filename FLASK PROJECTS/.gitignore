@@ -1,0 +1,5 @@
+/venv
+/_pycache_
+readme.txt
+Pipfile
+Pipfile.lock

@@ -1,0 +1,4 @@
+/venv
+/MovieApp/MovieApp/_pycache_
+/MovieApp/Rating/_pycache_
+/MovieApp/db.sqlite3

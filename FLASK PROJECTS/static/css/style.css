@@ -1,0 +1,112 @@
+.head {
+  margin-bottom: 10px;
+}
+
+.head a {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin-top: 7%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+img {
+  margin-top: 25px;
+}
+
+/*.container h2 {
+  background: #0062cc;
+  color: #fff;
+  width: 200px;
+  font-size: 24px;
+  padding: 5px;
+  height: 40px;
+}
+
+.container h2::after {
+  content: "";
+  border-top: 39px solid #0062cc;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 50px;
+  top: 34px;
+}*/
+.row-1 {
+  margin-top: 30px;
+}
+.row {
+  margin-top: 30px;
+}
+
+.product-bottom .dev-fa {
+  color: #28a745;
+  font-size: 10px;
+}
+
+.product-botttom h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.product-botttom h5 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.product-top .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.overlay {
+  display: block;
+  opacity: 0;
+  position: fixed;
+  margin-left: 0;
+  margin-top: 0;
+  padding-top: 0;
+  width: 10px;
+}
+.product-top:hover .overlay {
+  opacity: 1;
+  margin-left: 1%;
+  transition: 0.5s;
+}
+/*.product-top:hover {
+  cursor: pointer;
+}*/
+.overlay .dev-fa {
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  padding: 7px;
+  margin: 5%;
+  margin-bottom: 5%;
+}
+
+.overlay .btn-secondary {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.row-2 {
+  margin-top: 20px;
+}
+
+.row-3 {
+  margin-top: 20px;
+}
+
+.dev-page {
+  margin-top: 10px;
+}
+
+.dev-btn {
+  background-color: #4caf50;
+}

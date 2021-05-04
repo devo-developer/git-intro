@@ -1,0 +1,39 @@
+/*
+ * Specific styles of signup component
+ */
+/*
+ * General styles
+ */
+body,
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e90ff;
+}
+
+.dev-signup {
+  text-align: center;
+}
+
+.dev-p {
+  font-size: 14px;
+}
+
+.card-container.card {
+  max-width: 380px;
+  padding: 40px 40px;
+}
+
+#age {
+  width: 80px;
+}
+
+.dev-remeber-me {
+  font-size: 13px;
+}
+
+.sign-in {
+  text-align: center;
+}
