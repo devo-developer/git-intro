@@ -80,9 +80,13 @@ class User(models.Model):
     gender = models.IntegerField(choices=GENDER_CHOICE)
     date_of_birth = models.DateField()
     email = models.CharField(max_length=255)
+    phone = models.CharField(max_length=255, blank=True)
     password = models.CharField(max_length=2500)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.User.first_name
 
 
 class Review(models.Model):
