@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+.dev-list {
+  background-color: #fff;
+  height: 100vh;
+  width: 65%;
+}
+td {
+  margin: 0;
+  padding: 0;
+}
+.table .table-striped {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#mov_link {
+  text-decoration: none;
+}

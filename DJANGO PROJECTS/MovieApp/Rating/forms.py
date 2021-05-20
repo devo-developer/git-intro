@@ -18,7 +18,7 @@ class registerForm(forms.ModelForm):
                     'name': 'firstname',
                     'class': 'form-control',
                     'placeholder': 'First name',
-                    'type': 'text'
+                    'type': 'text',
                 }
             ),
             'Last_name': forms.TextInput(

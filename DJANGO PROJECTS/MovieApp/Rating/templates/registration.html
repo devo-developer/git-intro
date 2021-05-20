@@ -116,6 +116,7 @@
               </div>
               <input
                 name="pass1"
+                id="pass1"
                 class="form-control"
                 placeholder="Create password"
                 type="password"
@@ -130,9 +131,12 @@
               </div>
               <input
                 name="pass2"
+                id="pass2"
                 class="form-control"
                 placeholder="Confirm password"
                 type="password"
+                data-toggle="tooltip"
+                title="Hooray!"
               />
             </div>
             <!-- form-group// -->
@@ -142,12 +146,25 @@
               </button>
             </div>
             <!-- form-group// -->
-            <p class="text-center">Have an account? <a href="">Log In</a></p>
+            <p class="text-center">
+              Have an account?
+              <a href="{% url 'login' %}">Log In</a>
+            </p>
           </form>
         </article>
       </div>
       <!-- card.// -->
     </div>
     <!--container end.//-->
+    <script>
+      $("form").submit(function () {
+        var a = $("#pass1").val();
+        var b = $("#pass2").val();
+        if (a != b) {
+          alert("Please confirm entered password");
+          return false;
+        }
+      });
+    </script>
   </body>
 </html>
