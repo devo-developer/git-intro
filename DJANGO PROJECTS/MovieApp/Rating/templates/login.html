@@ -41,6 +41,7 @@
               </div>
             </div>
             <form action="" method="post" name="login">
+              {% csrf_token %}
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input
